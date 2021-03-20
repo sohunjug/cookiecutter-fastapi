@@ -2,7 +2,7 @@ from pydantic import BaseModel
 from typing import Optional
 
 
-class MachineLearningResponse(BaseModel):
+class ServiceResponse(BaseModel):
     prediction: float
 
 
